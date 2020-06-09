@@ -3,6 +3,8 @@
 #ref: https://drive.google.com/file/d/1_Rd07q_CrOmX6iY4vl6fa1DzcqPtgESG/view?usp=sharing
 echo "Run vserp.sh to Create /dev/ttyUSBLocal and /dev/ttyUSBRemote"
 ./vserp.sh --create
+
+
 echo "Run regedit to create com1, com2 registry."
 
 cat <<HERE > mkcom.reg
